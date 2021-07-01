@@ -11,6 +11,15 @@ mutation movies_dramas {
       thumbnail:"https://i.imgur.com/yinQyyT.mp4"}) {
     value{title}
   }
-
+ hippowars_1: insertmovies_by_genre(
+    value: { 
+      genre:"Dramas", 
+      year:1996,
+      title:"Hippo Strikes Back",
+      synopsis:"One Hippo, One Dream, One Crazy Summer. From the Creators of Parasite.",
+      duration:123,
+      thumbnail:"https://i.imgur.com/m7nx4nX.mp4"}) {
+    value{title}
+  }
 }
 ```
